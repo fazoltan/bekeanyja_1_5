@@ -1,0 +1,180 @@
+/*
+
+az eredeti sablon: TemplateMo 557 Grad School, https://templatemo.com/tm-557-grad-school
+
+*/
+
+/* Basic */
+
+a {
+  color: #b2e0ec;
+    text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.main-button a {
+    background-color: #b2e0ec;
+}
+
+.main-button a {
+  color: #2c6a7f;
+}
+
+.main-button a:hover {
+  color: gray;
+}
+
+@media screen and (max-width: 950px) {
+  nav[role="navigation"] li:hover a,
+  nav[role="navigation"] li.active a {
+      color: #b2e0ec;
+  }
+}
+
+.main-header .logo a em {
+    color: #b2e0ec;
+}
+
+.main-menu li .sub-menu li a:hover {
+    color: #b2e0ec;
+}
+
+.main-nav li:hover a,
+.main-nav li.active a {
+    border: 2px solid #b2e0ec;
+}
+
+.video-overlay {
+    background: none;
+    width: 30%;
+}
+
+.video-overlay h2{
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.main-banner .caption h2 em {
+  color: #b2e0ec;
+}
+
+.features-content {
+  background-color: rgba(22,34,57,0.95);
+  color: #fff;
+} 
+
+.features-content:hover {
+    background-color: #00476c;
+}
+
+@media screen and (max-width: 767px) {
+  
+  .tabs-content {
+      text-align: left;
+  }
+
+}
+
+#tabs ul .ui-tabs-active a {
+  color: #b2e0ec;
+}
+#tabs ul .ui-tabs-active a:after {
+  background-color: #b2e0ec;
+}
+#tabs ul .ui-tabs-active a:before {
+  border-color: #b2e0ec;
+}
+
+
+section.coming-soon {
+    background-image: url(../../img/20150830-TF_ascension2-1.jpg);
+    color: white;
+}
+
+section.coming-soon .continer h4 em {
+    color: #b2e0ec;
+}
+
+section.coming-soon .continer .counter span {
+    color: #b2e0ec;
+}
+
+section.coming-soon form button {
+    background-color: #b2e0ec;
+}
+
+section.courses .item .down-content img {
+    border: 2px solid #b2e0ec;
+}
+
+
+section.courses .item .down-content .text-button a {
+    color: #2c6a7f;
+}
+
+section.courses .item .down-content .text-button a:hover {
+    color: gray;
+}
+
+section.courses .owl-carousel button.active {
+    background-color: #b2e0ec;
+}
+
+
+section.video .left-content p {
+  line-height: 28px;
+}
+
+section.video .left-content span {
+  font-size: 16px;
+}
+
+section.video .left-content h4 em {
+    color: #b2e0ec;
+}
+
+.video-item figure a:before {
+  background-color: #b2e0ec;
+}
+.video-item figure a:hover:before {
+  background-color: #b2e0ec;
+}
+
+section.contact form button {
+    background-color: #b2e0ec;
+}
+
+footer p a,
+footer p a:hover {
+    color: #b2e0ec;
+}
+
+.img-book{
+  width: 600px;
+  height: 678px;
+}
+
+@media (max-width: 720px){
+  .img-book{
+    width: 90%;
+    height: 90%;
+  }
+
+#contact{
+  height: 450px;
+}
+
+a[target="_blank"]::after {
+  content: url(new-tab-icon.svg);
+  display: inline-block;
+  margin-left: 0.2em;
+  width: 1em;
+  height: 1em;
+}
